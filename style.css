@@ -24,7 +24,11 @@
 }
 
 body {
-    font-family: sans-serif;
+    background-image: url(/Proyecto3.Barra_de_busqueda/img/588756.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .search-bar {
@@ -48,6 +52,8 @@ body {
     pad: 10px;
     font-size: 18px;
     flex: 1;
+    border-radius: 20px;
+    font-family: "eduau", sans-serif;
 }
 
 .search-bar .actions {
@@ -60,9 +66,24 @@ body {
     outline: none;
     background: none;
     cursor: pointer;
-    color: aqua;
+    color: rgb(172, 192, 192);
 }
 
 .search-bar .actions button:hover {
-    color: cornflowerblue;
+    color: rgba(24, 109, 245, 0.889);
+}
+
+@font-face {
+    font-family: eduau;
+    src: url(/Proyecto3.Barra_de_busqueda/fonts/Wittgenstein-Medium.ttf);
+}
+
+img {
+    margin-top: 4%;
+    width: 20%;
+    height: auto;
+    position: relative;
+    right: -40%;
+    margin-bottom: -5%;
+    
 }
