@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url(/Proyecto3.Barra_de_busqueda/img/588756.jpg);
+    background-image: url(/img/588756.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ body {
 
 @font-face {
     font-family: eduau;
-    src: url(/Proyecto3.Barra_de_busqueda/public/fonts/Wittgenstein-Medium.ttf);
+    src: url(/fonts/Wittgenstein-Medium.ttf);
 }
 
 img {
